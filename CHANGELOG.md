@@ -5,6 +5,7 @@ This file includes only changes we consider noteworthy for users, admins and plu
 ## Unreleased
 
 - OAuth: Validate JWT token signature (#10210)
+- Fix out-of-bounds string reads on truncated compressed-RTF in the TNEF decoder (#10269)
 
 ## Release 1.7.2
 
